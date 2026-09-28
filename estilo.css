@@ -1,0 +1,76 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/rm222-mind-31.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 3rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+#login h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+#nome,
+#telefone,
+#data,
+#email,
+#cpf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+#nome label,
+#telefone label,
+#data label,
+#email label,
+#cpf label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#nome input,
+#telefone input,
+#data input,
+#cpf input,
+#email input{
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+}
+
+
+button {
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6b63fff1;
+}
+
